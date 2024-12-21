@@ -38,13 +38,13 @@ namespace ConsoleDrawingLibrary.Models
         }
 
 
-        public List<DynamicChar> ReplacementChars { get; } = new List<DynamicChar>();
-        public Dictionary<DynamicChar, ConsoleCoordinates> ReplacementCharCoordinates { get; } = new Dictionary<DynamicChar, ConsoleCoordinates>();
+        public List<DynamicChar> ReplacementChars { get; } = [];
+        public Dictionary<DynamicChar, ConsoleCoordinates> ReplacementCharCoordinates { get; } = [];
 
 
-        public List<DynamicText> DisplayTexts { get; } = new List<DynamicText>();
-        public Dictionary<DynamicText, ConsoleOrientation> DisplayTextOrientations { get; } = new Dictionary<DynamicText, ConsoleOrientation>();
-        public Dictionary<DynamicText, ConsoleCoordinates> DisplayTextCoordinates { get; } = new Dictionary<DynamicText, ConsoleCoordinates>();
+        public List<DynamicText> DisplayTexts { get; } = [];
+        public Dictionary<DynamicText, ConsoleOrientation> DisplayTextOrientations { get; } = [];
+        public Dictionary<DynamicText, ConsoleCoordinates> DisplayTextCoordinates { get; } = [];
 
 
 

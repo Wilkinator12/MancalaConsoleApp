@@ -16,7 +16,7 @@ namespace ConsoleUI.Displays.Factories
 {
     public static class GameDisplayFactory
     {
-        public static GameDisplay GetInitialTurnDisplay(TwoPlayerTurnViewModel playerTurn) => new GameDisplay()
+        public static GameDisplay GetInitialTurnDisplay(TwoPlayerTurnViewModel playerTurn) => new()
         {
             Title = GetTitle(),
             TurnMessage = GetTurnMessage(playerTurn),
@@ -24,7 +24,7 @@ namespace ConsoleUI.Displays.Factories
             EventMessage = ""
         };
 
-        public static GameDisplay GetSeedDistributionDisplay(TwoPlayerTurnViewModel playerTurn, int remainingSeeds) => new GameDisplay()
+        public static GameDisplay GetSeedDistributionDisplay(TwoPlayerTurnViewModel playerTurn, int remainingSeeds) => new()
         {
             Title = GetTitle(),
             TurnMessage = GetTurnMessage(playerTurn),
@@ -32,7 +32,7 @@ namespace ConsoleUI.Displays.Factories
             EventMessage = $"Seeds to distribute: {remainingSeeds}"
         };
 
-        public static GameDisplay GetStealingSeedsDisplay(TwoPlayerTurnViewModel playerTurn) => new GameDisplay()
+        public static GameDisplay GetStealingSeedsDisplay(TwoPlayerTurnViewModel playerTurn) => new()
         {
             Title = GetTitle(),
             TurnMessage = GetTurnMessage(playerTurn),
@@ -40,7 +40,7 @@ namespace ConsoleUI.Displays.Factories
             EventMessage = $"{playerTurn.ActivePlayer} steals {playerTurn.OpposingPlayer}'s seeds!"
         };
 
-        public static GameDisplay GetGoAgainDisplay(TwoPlayerTurnViewModel playerTurn) => new GameDisplay()
+        public static GameDisplay GetGoAgainDisplay(TwoPlayerTurnViewModel playerTurn) => new()
         {
             Title = GetTitle(),
             TurnMessage = GetTurnMessage(playerTurn),
@@ -48,7 +48,7 @@ namespace ConsoleUI.Displays.Factories
             EventMessage = $"{playerTurn.ActivePlayer} gets to go again!"
         };
 
-        public static GameDisplay GetEndOfTurnDisplay(TwoPlayerTurnViewModel playerTurn) => new GameDisplay()
+        public static GameDisplay GetEndOfTurnDisplay(TwoPlayerTurnViewModel playerTurn) => new()
         {
             Title = GetTitle(),
             TurnMessage = GetTurnMessage(playerTurn),
@@ -56,7 +56,7 @@ namespace ConsoleUI.Displays.Factories
             EventMessage = $"{GetActivePlayerName(playerTurn)}'s turn has ended."
         };
 
-        public static GameDisplay GetEndOfGameDisplay(TwoPlayerTurnViewModel playerTurn, GameResultViewModel gameResult) => new GameDisplay()
+        public static GameDisplay GetEndOfGameDisplay(TwoPlayerTurnViewModel playerTurn, GameResultViewModel gameResult) => new()
         {
             Title = GetTitle(),
             TurnMessage = "Game Over",

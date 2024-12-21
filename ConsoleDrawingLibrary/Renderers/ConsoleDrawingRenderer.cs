@@ -24,7 +24,7 @@ namespace ConsoleDrawingLibrary.Renderers
 
         private void RenderReplacementChars()
         {
-            if (_drawing.ReplacementChars.Any() == false) return;
+            if (_drawing.ReplacementChars.Count == 0) return;
 
 
             foreach (var replacementChar in _drawing.ReplacementChars)
@@ -42,7 +42,7 @@ namespace ConsoleDrawingLibrary.Renderers
 
         private void AddDisplayTexts_ToReplacementChars()
         {
-            if (_drawing.DisplayTexts.Any() == false) return;
+            if (_drawing.DisplayTexts.Count == 0) return;
 
 
             foreach (var displayText in _drawing.DisplayTexts)
