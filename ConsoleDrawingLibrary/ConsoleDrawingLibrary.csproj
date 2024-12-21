@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="CommonLibrary">
+      <HintPath>..\..\..\..\..\Libraries\CommonLibrary\Version1.0\CommonLibrary\CommonLibrary\bin\Release\netstandard2.0\CommonLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="ConsoleLibrary">
+      <HintPath>..\..\..\..\..\Libraries\ConsoleLibrary\ConsoleLibrary4.5\ConsoleLibrary\ConsoleLibrary\bin\Release\netstandard2.0\ConsoleLibrary.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
