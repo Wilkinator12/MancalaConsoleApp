@@ -1,6 +1,6 @@
 The Mancala Console App
 
-This is a Console application that simulates the game of Mancala. It uses a SQLite database to track players, their number of wins, and active games that they are currently in. Games that are active are automatically saved after each turn and can be reloaded after the game is over.
+This is a Console application that simulates the game of Mancala. It uses a SQLite database to track players, their number of wins, and active games that they are currently in. Games that are active are automatically saved after each turn and can be reloaded when the program restarts.
 
 
 Current Features:
