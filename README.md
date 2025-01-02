@@ -17,6 +17,10 @@ For a detailed set of rules, please follow this link: https://www.scholastic.com
 - Games are automatically saved once created and after each turn so they can be reloaded each time the program starts
 
 
+## Programming Concepts Used
+- SQLite
+
+
 ## ConsoleDrawingLibrary Explanation
 A library for drawing to the console was created for this project. It uses a ConsoleDrawing class to create rectangular, text-based "drawings" to the console. A ConsoleCanvas class is also used so that multiple ConsoleDrawing objects can be layered and positioned in a larger drawing space.
 
