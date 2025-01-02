@@ -23,7 +23,7 @@ A library for drawing to the console was created for this project. It uses a Con
 
 ## Local Dependencies
 ### CommonLibrary
-This is a library that I use for various, common C# needs. Most specifically, for this project, it provides DynamicChar and DynamicText classes that allow string and char types to be dynamically generated at runtime based on a delegate method. These classes are helpful for ConsoleDrawing needs as the characters that are drawn to the screen often change throughout the games. This library is provided with the repository as "CommonLibrary.dll".
+This is a library that I use for various, common C# needs. Most specifically, for this project, it provides DynamicChar and DynamicText classes that allow char and string types to be dynamically generated at runtime based on a delegate method. These classes are helpful for ConsoleDrawing needs as the characters that are drawn to the screen often change throughout the game. This library is provided with the repository as "CommonLibrary.dll".
 
 ### ConsoleLibrary
 This is a library that I use for generating menus and prompts to the console easily. This library is provided with the repository as "ConsoleLibrary.dll".
