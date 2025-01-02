@@ -10,6 +10,10 @@ This is a Console application that simulates the board game "Mancala". It uses a
 - Games are automatically saved once created and after each turn so they can be reloaded each time the program starts
 
 
+## ConsoleDrawingLibrary Explanation
+A library for drawing to the console was created for this project. It uses a ConsoleDrawing class to create rectangular text-based "drawings" to the console. A ConsoleCanvas class is also used so that multiple ConsoleDrawing objects can be layered and positioned in a larger drawing space.
+
+
 ## What is Mancala?
 
 Mancala is a board game that predates chess. It may even be as old as agriculture itself. Each player has six "cups" each that start with four seeds in them and their own "home cup" which starts with zero seeds. The goal is to get more seeds in your home cup than the other player.
