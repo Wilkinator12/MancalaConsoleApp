@@ -11,7 +11,7 @@ This is a Console application that simulates the board game "Mancala". It uses a
 
 
 ## ConsoleDrawingLibrary Explanation
-A library for drawing to the console was created for this project. It uses a ConsoleDrawing class to create rectangular text-based "drawings" to the console. A ConsoleCanvas class is also used so that multiple ConsoleDrawing objects can be layered and positioned in a larger drawing space.
+A library for drawing to the console was created for this project. It uses a ConsoleDrawing class to create rectangular, text-based "drawings" to the console. A ConsoleCanvas class is also used so that multiple ConsoleDrawing objects can be layered and positioned in a larger drawing space.
 
 
 ## What is Mancala?
